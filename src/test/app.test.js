@@ -1,6 +1,5 @@
-import * as app from "./app";
-import * as math from "./math";
-
+import * as app from "../app";
+import * as math from "../math";
 math.add = jest.fn();
 math.subtract = jest.fn();
 
